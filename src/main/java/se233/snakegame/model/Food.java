@@ -31,7 +31,7 @@ public class Food {
            this.position =new Point2D(rn.nextInt(Platform.WIDTH),rn.nextInt(Platform.HEIGHT));
 
         }while(prev_position == this.position);
-        logger.info("food: x:{ } y:{ }",this.position.getX(),this.position.getY());
+        logger.info("food: x:{} y:{}",this.position.getX(),this.position.getY());
 
     }
 
